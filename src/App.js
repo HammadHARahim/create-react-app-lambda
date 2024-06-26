@@ -1,43 +1,6 @@
-import { useState } from "react";
 import Nav from "./components/navigation/Nav";
 import Creator from "./components/Main Components/Creator";
 import Presentor from "./components/Main Components/Presentor";
-// default userprofiles
-const userProfiles = [
-	{
-		name: "hamma",
-		age: 25,
-		email: "hamma@gmail.com",
-	},
-	{
-		name: "Ramma",
-		age: 25,
-		email: "Ramma@gmail.com",
-	},
-	{
-		name: "Damma",
-		age: 25,
-		email: "Damma@gmail.com",
-	},
-	{
-		name: "gamma",
-		age: 25,
-		email: "Gamma@gmail.com",
-	},
-];
-
-const goals = [
-	{
-		Discription: "Lose 10 pounds in 3 months.",
-		Category: "Health",
-		goal_id: 1,
-	},
-];
-
-// button component for all
-function Button({ children }) {
-	return <button>{children}</button>;
-}
 
 // main App component
 export default function App() {
