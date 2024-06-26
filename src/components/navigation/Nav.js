@@ -12,17 +12,17 @@ function Nav() {
 	return (
 		<nav className="bg-black text-yellow-500 p-4 mt-4 mx-4 rounded-lg shadow-lg mb-8">
 			<div className="container mx-auto flex justify-between items-center flex-wrap">
-				<a href="#" className="text-lg font-bold mb-2 md:mb-0">
+				<a href="google.com" className="text-lg font-bold mb-2 md:mb-0">
 					Goal Tracker
 				</a>
 				<ul className="flex space-x-4 mb-2 md:mb-0">
 					<li>
-						<a href="#" className="hover:underline">
+						<a href="google.com" className="hover:underline">
 							About Us
 						</a>
 					</li>
 					<li>
-						<a href="#" className="hover:underline">
+						<a href="googl.com" className="hover:underline">
 							Locations
 						</a>
 					</li>
