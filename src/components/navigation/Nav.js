@@ -22,7 +22,7 @@ function Nav() {
 						</a>
 					</li>
 					<li>
-						<a href="googl.com" className="hover:underline">
+						<a href="google.com" className="hover:underline">
 							Locations
 						</a>
 					</li>
